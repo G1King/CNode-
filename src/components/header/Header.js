@@ -8,11 +8,11 @@ const navItem = [
        content:"首页"
     },{
         icon: "book",
-        path: "/",
+        path: "/book",
         content:"教程"
     },{
         icon: "info-circle-o",
-        path: "/",
+        path: "/about",
         content:"关于"
     }
 ];

@@ -5,7 +5,7 @@ export default class HomeRouter extends Component {
   render() {
     return (
       <Switch>
-        <Route path="/home" exact render={()=>(<Redirect to="/home"/>)}/>
+        <Route path="/home" exact render={()=>(<Redirect to="/home/all"/>)}/>
         <Route path="/home/all" component={List}/>
         <Route path="/home/ask" component={List}/>
         <Route path="/home/share" component={List}/>
