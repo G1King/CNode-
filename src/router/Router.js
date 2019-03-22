@@ -9,7 +9,7 @@ import {
 // import Bundle from '../untils/Bundle'
 import About from '../views/about/About';
 import Book from '../views/book/Book';
-import Home from '../views/home/Home';
+import IndexHome from '../views/home/Home';
 import User from '../views/user/User';
 import Details from '../views/details/Detail';
 // const AboutWrapper = props => <Bundle load={About} {...props}/>;
@@ -27,7 +27,7 @@ export default class Router extends Component {
     exact render = {
         () => <Redirect to = "/home" />
     } /> 
-    <Route path="/home" component={Home}/>
+    <Route path="/home" component={IndexHome}/>
     <Route path="/about" component={About}/>
     <Route path="/book" component={Book}/>
     <Route path="/user" component={User}/>

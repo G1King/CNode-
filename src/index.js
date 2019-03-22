@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter} from "react-router-dom";
-import  './untils/reset.css';
+import $HTTP from './untils/httpRequest/RequestTool';
 import App from './App';
 import "./index.css";
 import * as serviceWorker from './serviceWorker';
-
+window.$HTTP = $HTTP;
 ReactDOM.render(
     <BrowserRouter>
     <App />
@@ -16,3 +16,4 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
