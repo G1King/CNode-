@@ -1,3 +1,29 @@
+
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+
+const propTypes = {
+    
+};
+
+
+class TM_FILENAME_BASE extends Component {
+    render() {
+        return (
+            <div>
+                
+            </div>
+        );
+    }
+}
+
+
+TM_FILENAME_BASE.propTypes = propTypes;
+
+
+export default TM_FILENAME_BASE;
+
 // // 定义常量及api接口地址
 // export const access_token = ''
 // export const platform = ''
