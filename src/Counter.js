@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import {  connect } from 'react-redux'
-
+const _dev =["22"]
 export default class Counter extends Component {
  
 
