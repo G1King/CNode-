@@ -7,7 +7,6 @@ export default class Counter extends Component {
 
   render() {
       const {value,onIncreasClick} = this.props;
-       console.log('222')
     return (
       <div>
         <span>{value}</span>
