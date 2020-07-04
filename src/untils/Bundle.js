@@ -32,7 +32,7 @@ load = (props)=>{
     render() {
         //若加载完成则渲染对应懒加载的组件，反之加载beforeLoad传入的组件
         return this.state.mod ?
-            <this.state.mod {
+            < this.state.mod {
                 ...this.props
             }
         />: < this.props.beforeLoad {

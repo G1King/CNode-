@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import {Switch,Route,Redirect} from 'react-router-dom';
 import List from '@s/views/home/HomeList';
-
 export default class HomeRouter extends Component {
-  
   render() {
     return (
       <Switch>

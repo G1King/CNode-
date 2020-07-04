@@ -174,15 +174,11 @@
   margin-left: 10px;
   font-weight: bold;
 }
-.listName{
-  position: relative;
-}
+
 .userInfoList time {
   position: absolute;
-  /* float: right; */
   right: 0;
-  top: 50%;
-  /* margin-top: 0; */
+  top: 0;
 }
 
 .linkList div {
